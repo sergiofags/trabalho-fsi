@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(16, 16, 16);
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  background-color: rgb(16, 16, 16);
+}
+
+ul {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner {
+  width: 100%;
+  height: 768px;
+  background-image: url('../img/banner.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+}
+
+.text-banner {
+  color: white;
+}
+
+.text-banner h1 {
+  font-size: 70px;
+  margin-bottom: 25px;
+}
+
+.text-banner h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.introduction {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 520px;
+  align-items: center;
+}
+
+.introduction .text-introduction {
+  width: 500px;
+}
+
+.introduction h3 {
+  font-size: 40px;
+}
+
+.introduction p {
+  margin-top: 30px;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+
+/* ------------------------------------------ */
+
+
+.box-history {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.box-history .text-history {
+  color: white;
+  width: 500px;
+}
+
+.box-history .text-history h3 {
+  font-size: 40px;
+}
+
+.box-history .text-history p {
+  margin-top: 30px;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+
+
+
+
+
+.mouses-evolution h3{
+  margin-top: 120px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.mouses-evolution table {
+  margin-top: 80px;
+  width: 100%;
+  font-size: 20px;
+  color: white;
+  border: 1px solid;
+}
+
+table td {
+  padding: 20px;
+}
+
+table, td {
+  border: 1px solid;
+}
+
+.topo {
+  background-color: rgb(52, 52, 52);
+  text-align: center;
+}
+
+footer {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  color: white;
+  text-align: center;
+}
+
+footer h4{
+  font-size: 30px;
+}
+
+footer h6{
+  font-size: 25px;
+  margin-top: 15px;
+}
